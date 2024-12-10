@@ -1,0 +1,45 @@
+project:
+  type: book
+  output-dir: manual
+  render:
+    - "!*.md"
+
+book:
+  title: "Einführung in die Verarbeitung von PICA-Daten"
+  subtitle: "Dieses Handbuch bietet eine Einführung in die Verarbeitung von Daten in, aus und zwischen **PICA-Formaten**."
+  repo-url: https://github.com/pro4bib/pica
+  language: de
+  repo-subdir: manual
+  repo-actions:
+    - source
+  chapters:
+    - index.qmd
+    - grundlagen.qmd
+    - formate.qmd
+    - darstellung.qmd
+    - verarbeitung.qmd
+    - picadata.qmd
+    - catmandu.qmd
+    - pica-rs.qmd
+    - schnittstellen.qmd
+    - bearbeitung.qmd
+    - ausblick.qmd
+    - CONTRIBUTING.qmd
+
+  page-footer: 
+    right: 
+      - text: Datenschutz
+        href: https://www.gbv.de/datenschutz
+      - text: Impressum
+        href: https://www.gbv.de/impressum
+      - icon: github
+        href: https://github.com/nfdi4objects/n4o-graph
+
+tbl-cap-location: bottom
+number-sections: false
+number-depth: 1
+
+format:
+  html:
+    theme: cosmo
+    link-external-icon: true
