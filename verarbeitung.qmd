@@ -1,8 +1,3 @@
----
-title: "Verarbeitung"
----
-
-
 # Verarbeitung von PICA-Daten
 
 Dieses Kapitel gibt eine allgemeine Übersicht von frei zugänglichen Werkzeugen zur Verarbeitung von PICA-Daten. Auf folgende Werkzeuge wird ausführlicher eingegangen:
@@ -19,9 +14,9 @@ Darüber hinaus gibt es die Web-Komponente [PicaEditor](#picaeditor) und mehrere
 
 ## PicaEditor
 
-**PicaEditor** ist eine Komponente für Webanwendungen mit der PICA-Daten im Browser analysiert und bearbeitet werden können. Die Komponente basiert auf [CodeMirror](darstellung?id=codemirror) und dem JavaScript-Framework [Vue3](http://v3.vuejs.org/).
+**PicaEditor** ist eine Komponente für Webanwendungen mit der PICA-Daten im Browser analysiert und bearbeitet werden können. Die Komponente basiert auf [CodeMirror](darstellung.qmd#codemirror) und dem JavaScript-Framework [Vue3](http://v3.vuejs.org/).
 
-Der zentrale Teil des Editors dient der Anzeige und Bearbeitung von PICA+ Daten. Syntaxfehler und Fehler bei der Validierung gegen ein [Avram Schema](formate?id=avram-schemas) werden dabei hervorgehoben und mit dem Tabular kann schnell zwischen (Unter)feldern des Datensatzes gewechselt werden. Unter dem Bearbeitungsfeld werden (sofern vorhanden) Schema-Informationen zum jeweils ausgewählten Feld angezeigt. Über dem Bearbeitungsfeld stehen die PPN und ein Link in den Katalog, aus dem Datensätze per PPN geladen werden können. Eine Möglichkeit zum Speichern in den Katalog besteht allerdings nicht.
+Der zentrale Teil des Editors dient der Anzeige und Bearbeitung von PICA+ Daten. Syntaxfehler und Fehler bei der Validierung gegen ein [Avram Schema](formate.qmd#avram-schemas) werden dabei hervorgehoben und mit dem Tabular kann schnell zwischen (Unter)feldern des Datensatzes gewechselt werden. Unter dem Bearbeitungsfeld werden (sofern vorhanden) Schema-Informationen zum jeweils ausgewählten Feld angezeigt. Über dem Bearbeitungsfeld stehen die PPN und ein Link in den Katalog, aus dem Datensätze per PPN geladen werden können. Eine Möglichkeit zum Speichern in den Katalog besteht allerdings nicht.
 
 <div id="pica-editor" style="text-align:left">
   <pica-editor :databases="databases"

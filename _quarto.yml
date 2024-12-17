@@ -49,6 +49,6 @@ number-depth: 1
 format:
   html:
     theme: cosmo
-    css: style.css
+    css: css/gbv.css
     link-external-icon: true
     toc: true

@@ -1,10 +1,6 @@
----
-title: "Darstellung"
----
-
 # Darstellung von PICA-Daten
 
-Der erste Schritte bei jeder Analyse und Verarbeitung von PICA-Daten besteht darin, sich die Daten anzusehen. Dazu ist am besten die [PICA Plain Serialisierung](formate?id=serialisierungen) geeingnet. Werkzeuge zur Konvertierung in dieses Format werden [im folgenden Kapitel](verarbeitung) vorgestellt. Zur übersichtlicheren Anzeige von PICA Plain gibt es verschiedene Methoden der [Syntaxhervorhebung](#syntaxhervorhebung).
+Der erste Schritte bei jeder Analyse und Verarbeitung von PICA-Daten besteht darin, sich die Daten anzusehen. Dazu ist am besten die [PICA Plain Serialisierung](formate.qmd#serialisierungen) geeingnet. Werkzeuge zur Konvertierung in dieses Format werden [im folgenden Kapitel](verarbeitung) vorgestellt. Zur übersichtlicheren Anzeige von PICA Plain gibt es verschiedene Methoden der [Syntaxhervorhebung](#syntaxhervorhebung).
 
 ::: {.callout-important appearance="simple"}
 Dieses Kapitel soll noch um Methoden ergänzt werden um Hilfe zu einzelnen PICA-Feldern abzurufen.
@@ -26,7 +22,7 @@ Der Texteditor vim gehört praktisch zur Standardausstattung für jedes Unix-Sys
 
 ### picadata
 
-Das Kommandozeilenprogramm [picadata](verarbeitung?id=picadata) wird im folgenden Kapitel vorgestellt.
+Das Kommandozeilenprogramm [picadata](verarbeitung.qmd#picadata) wird im folgenden Kapitel vorgestellt.
 
 ![Screenshot PICA Syntax-Highlighting mit picadata](img/screenshot-picadata.png)
 
@@ -63,7 +59,7 @@ Der Texteditor [Sublime Text](https://www.sublimetext.com/) kann um Syntax-Highl
 
 ### CodeMirror
 
-[CodeMirror](https://codemirror.net/) ist eine HTML-Komponente für ansprechende Textformulare mit Syntaxhervorhebung. Der PICA+ Datensatz im folgenden Beispiel kann direkt im Browser bearbeitet werden. Umfangreichere Möglichkeiten zur Bearbeitung und Analyse bietet der auf CodeMirror aufbauende [PicaEditor](verarbeitung?id=picaeditor).
+[CodeMirror](https://codemirror.net/) ist eine HTML-Komponente für ansprechende Textformulare mit Syntaxhervorhebung. Der PICA+ Datensatz im folgenden Beispiel kann direkt im Browser bearbeitet werden. Umfangreichere Möglichkeiten zur Bearbeitung und Analyse bietet der auf CodeMirror aufbauende [PicaEditor](verarbeitung.qmd#picaeditor).
 
 <div>
 <textarea id="pica-editor">
