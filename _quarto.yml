@@ -1,6 +1,5 @@
 project:
   type: book
-  output-dir: manual
   render:
     - "!*.md"
 
@@ -9,7 +8,6 @@ book:
   subtitle: "Dieses Handbuch bietet eine Einführung in die Verarbeitung von Daten in, aus und zwischen **PICA-Formaten**."
   repo-url: https://github.com/pro4bib/pica
   language: de
-  repo-subdir: manual
   repo-actions:
     - source
   chapters:
@@ -25,15 +23,24 @@ book:
     - bearbeitung.qmd
     - ausblick.qmd
     - CONTRIBUTING.qmd
+  navbar:
+    logo: img/gbv-vzg-logo.png
+    logo-alt: "GBV VZG Logo."
+    title: false
 
   page-footer: 
+    left: 
+      - text: CC BY 3.0 DE
+        href: https://creativecommons.org/licenses/by/3.0/de/
     right: 
       - text: Datenschutz
         href: https://www.gbv.de/datenschutz
-      - text: Impressum
+      - text: hosted by VZG
         href: https://www.gbv.de/impressum
       - icon: github
-        href: https://github.com/nfdi4objects/n4o-graph
+        href: https://github.com/pro4bib/pica/
+      - text: "![](img/quarto-badge.svg)"
+        href: https://quarto.org
 
 tbl-cap-location: bottom
 number-sections: false
@@ -43,3 +50,4 @@ format:
   html:
     theme: cosmo
     link-external-icon: true
+    toc: true

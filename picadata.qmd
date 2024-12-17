@@ -1,8 +1,14 @@
+---
+title: "Verarbeitung mit picadata"
+---
+
 # Einführung in picadata
 
 Das Kommandozeilenprogramm `picadata` ermöglicht die Konvertierung zwischen verschiedenen [PICA-Serialisierungen](formate?id=serialisierungen), einfache Analyse und Auswertung von PICA-Daten sowie die [Validierung gegen Avram-Schemas](formate?id=avram-schemas).
 
-?> [Dokumentation von picadata auf metacpan](https://metacpan.org/pod/picadata)
+::: {.callout-note appearance="simple"}
+[Dokumentation von picadata auf metacpan](https://metacpan.org/pod/picadata)
+:::
 
 ## Installation
 
@@ -141,7 +147,9 @@ Eine ausführlichere Analyse ist mit der Option `-b`/`--build` möglich, die aus
 picadata -B example.pica
 ~~~
 
-[](example-schema.json ':include :type=code json')
+```json
+{{< include example-schema.json >}}
+```
 
 ## Validierung
 
@@ -165,6 +173,6 @@ catmandu convert kxp --base http://sru.k10plus.de/opac-de-84 --query pica.bkl=56
 picadata validate -s k10plus-title.json brueckenbau.pp
 ~~~
 
-!> Die Validierung umfasst momentan nur die bibliographische Ebene und keine Occurrence-Bereiche ([Siehe Issue](https://github.com/gbv/PICA-Data/issues/35))!
-
-
+::: {.callout-important appearance="simple"}
+Die Validierung umfasst momentan nur die bibliographische Ebene und keine Occurrence-Bereiche ([Siehe Issue](https://github.com/gbv/PICA-Data/issues/35))!
+:::

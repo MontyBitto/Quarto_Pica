@@ -1,8 +1,14 @@
+---
+title: "Verarbeitung mit Catmandu"
+---
+
 # Einführung in Catmandu
 
 **Catmandu** ist ein digitaler Werkzeugkasten für die Verarbeitung von Metadaten. Im Gegensatz zu ähnlichen ETL-Tools unterstützt Catmandu gängige Datenformate und Schnittstellen von Bibliothekssoftware, darunter auch PICA. Die PICA-Unterstützung in Catmandu basiert auf [picadata] und geht darüber hinaus, vor allem was Möglichkeiten des Zugriffs auf [Schnittstellen](schnittstellen) und der Konvertierung zwischen PICA und anderen Formaten betrifft.
 
-?> [Catmandu-Einführung](https://metacpan.org/pod/Catmandu::Introduction) (in Englisch)
+::: {.callout-note appearance="simple"}
+[Catmandu-Einführung](https://metacpan.org/pod/Catmandu::Introduction) (in Englisch)
+:::
 
 ## Installation
 

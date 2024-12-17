@@ -1,8 +1,14 @@
+---
+title: "Darstellung"
+---
+
 # Darstellung von PICA-Daten
 
 Der erste Schritte bei jeder Analyse und Verarbeitung von PICA-Daten besteht darin, sich die Daten anzusehen. Dazu ist am besten die [PICA Plain Serialisierung](formate?id=serialisierungen) geeingnet. Werkzeuge zur Konvertierung in dieses Format werden [im folgenden Kapitel](verarbeitung) vorgestellt. Zur übersichtlicheren Anzeige von PICA Plain gibt es verschiedene Methoden der [Syntaxhervorhebung](#syntaxhervorhebung).
 
-!> Dieses Kapitel soll noch um Methoden ergänzt werden um Hilfe zu einzelnen PICA-Feldern abzurufen.
+::: {.callout-important appearance="simple"}
+Dieses Kapitel soll noch um Methoden ergänzt werden um Hilfe zu einzelnen PICA-Feldern abzurufen.
+:::
 
 ## Syntaxhervorherbung
 
@@ -14,7 +20,9 @@ Der Texteditor vim gehört praktisch zur Standardausstattung für jedes Unix-Sys
 
   ![Screenshot PICA Syntax-Highlighting unter vim](img/screenshot-vim.png)
 
-?> [Anleitung der Einrichtung von PICA-Highlighting unter vim](https://gbv.github.io/lipstick/vim/)
+::: {.callout-note appearance="simple"}
+[Anleitung der Einrichtung von PICA-Highlighting unter vim](https://gbv.github.io/lipstick/vim/)
+:::
 
 ### picadata
 
@@ -30,7 +38,9 @@ Der Texteditor [Sublime Text](https://www.sublimetext.com/) kann um Syntax-Highl
 
 ![Screenshot PICA Syntax-Highlighting mit Sublime](img/screenshot-sublime.png)
 
-?> [PICA-Syntax-Definition und Anleitung](https://git.bsz-bw.de/amzar/pica-sublime)
+::: {.callout-note appearance="simple"}
+[PICA-Syntax-Definition und Anleitung](https://git.bsz-bw.de/amzar/pica-sublime)
+:::
 
 ### Prism
 
@@ -47,7 +57,9 @@ Der Texteditor [Sublime Text](https://www.sublimetext.com/) kann um Syntax-Highl
 + 021A $aEin gutes Buch$hzum Lesen
 ~~~
 
-?> [Anleitung der Nutzung von Prism für PICA](https://gbv.github.io/lipstick/prism/)
+::: {.callout-note appearance="simple"}
+[Anleitung der Nutzung von Prism für PICA](https://gbv.github.io/lipstick/prism/)
+:::
 
 ### CodeMirror
 
@@ -65,4 +77,6 @@ Der Texteditor [Sublime Text](https://www.sublimetext.com/) kann um Syntax-Highl
 CodeMirror.fromTextArea(document.getElementById('pica-editor'), { lineNumbers: true });
 </script>
 
-?> [Anleitung zu PICA-Highlighting mit CodeMirror](https://gbv.github.io/lipstick/codemirror/)
+::: {.callout-note appearance="simple"} 
+[Anleitung zu PICA-Highlighting mit CodeMirror](https://gbv.github.io/lipstick/codemirror/)
+:::

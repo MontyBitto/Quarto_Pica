@@ -1,3 +1,6 @@
+---
+title: "Einleitung"
+---
 *Jakob Voß (Verbundzentrale des GBV), 2020- ([siehe Änderungshistorie](https://github.com/pro4bib/pica/commits/master)*)
 
 ## Vorwort

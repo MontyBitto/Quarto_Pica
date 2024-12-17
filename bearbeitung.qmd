@@ -1,3 +1,7 @@
+---
+title: "Bearbeitung"
+---
+
 # PICA-Daten erstellen und ändern
 
 Die **Änderung von PICA-Daten** beschränkt sich in der Regel auf Bibliotheken und Verbundzentralen, die gemeinsam PICA-Datenbanken wie den K10plus betreiben. Dazu

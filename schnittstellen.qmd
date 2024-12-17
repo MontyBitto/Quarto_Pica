@@ -6,9 +6,13 @@ Für den lesenden Zugriff auf PICA-Daten gibt es [unAPI](#unapi) für einzelne D
 
 Die unAPI-Schnittstelle ermöglicht den Abruf einzelner PICA-Datensätze mittels ihrer PPN. Zusätzlich muss ein Datenbankkürzel angegeben werden und in welchem Format der Datensatz zurückgeliefert werden soll.
 
-?> [unAPI im K10plus-Wiki](https://wiki.k10plus.de/display/K10PLUS/UnAPI)
+::: {.callout-note appearance="simple"}
+[unAPI im K10plus-Wiki](https://wiki.k10plus.de/display/K10PLUS/UnAPI)
+:::
 
-?> [unAPI im GBV-Verbundwiki](https://verbundwiki.gbv.de/display/VZG/unAPI)
+::: {.callout-note appearance="simple"}
+[unAPI im GBV-Verbundwiki](https://verbundwiki.gbv.de/display/VZG/unAPI)
+:::
 
 Eine Liste aller unterstützen Formaten wird bei Aufruf der unAPI-URL (<https://unapi.k10plus.de/>) zurückgeliefert. Die PICA-basierten Serialisierungen sind:
 
@@ -89,15 +93,25 @@ curl http://sru.k10plus.de/opac-de-627 | catmandu convert XML --path //index to 
 
 In den Katalogisierungsrichtlinien finden sich auch Angaben dazu, welche PICA-(Unter)felder in welchem Suchindex indexiert werden. Die Beziehung zwischen PICA-Feldern und Suchindex ist allerdings komplexer, da die Daten bei der Indexierung aggregiert, gefiltert und verändert werden können.
 
-?> [Weitere Informationen zu SRU im K10plus-Wiki](https://wiki.k10plus.de/display/K10PLUS/SRU)
+::: {.callout-note appearance="simple"}
+[Weitere Informationen zu SRU im K10plus-Wiki](https://wiki.k10plus.de/display/K10PLUS/SRU)
+:::
 
-?> [SRU im GBV-Verbundwiki](https://verbundwiki.gbv.de/display/VZG/SRU)
+::: {.callout-note appearance="simple"}
+[SRU im GBV-Verbundwiki](https://verbundwiki.gbv.de/display/VZG/SRU)
+:::
 
-?> [SRU bei der DNB](http://www.dnb.de/sru)
+::: {.callout-note appearance="simple"}
+[SRU bei der DNB](http://www.dnb.de/sru)
+:::
 
-?> [SRU bei der Zeitschriftendatenbank](https://www.zeitschriftendatenbank.de/services/schnittstellen/sru/)
+::: {.callout-note appearance="simple"}
+[SRU bei der Zeitschriftendatenbank](https://www.zeitschriftendatenbank.de/services/schnittstellen/sru/)
+:::
 
-?> [Wikipedia-Artikel zu SRU](https://de.wikipedia.org/wiki/Search/Retrieve_via_URL)
+::: {.callout-note appearance="simple"}
+[Wikipedia-Artikel zu SRU](https://de.wikipedia.org/wiki/Search/Retrieve_via_URL)
+:::
 
 ### Beispiel: K10plus-Abfragen
 
@@ -170,7 +184,9 @@ picadata --count frankfurts.pica
 
 Die so heruntergeladene Treffermenge lässt sich nun mit der Catmandu-Konvertierungssprache "Fix" weiter bearbeiten. [Hier ein Beispielskript](gnd.fix ':ignore'):
 
-[](gnd.fix ':include :type=code fix')
+```
+{{< include gnd.fix >}}
+```
 
 Das Fix-Skript abgespeichert in der Datei `gnd.fix`, lässt sich folgendermaßen anwenden, um die Namen zu extrahieren:
 
@@ -192,7 +208,9 @@ Unter dem PICA-Datensatz wird in der Feldansicht auch die **Indexierung** des Da
 
 WinIBW ist zwar nicht frei verfügbar aber das in Bibliotheken am weitesten verbreitete Programm zur Verarbeitung von PICA-Daten. Nicht zuletzt werden PICA-Daten bei der Katalogisierung in der Regel mittels WinIBW in PICA-Datenbanken eingetragen.
 
-?> [Download von Datensätzen in WinIBW](https://wiki.k10plus.de/pages/viewpage.action?pageId=64225417)
+::: {.callout-note appearance="simple"}
+[Download von Datensätzen in WinIBW](https://wiki.k10plus.de/pages/viewpage.action?pageId=64225417)
+:::
 
 ## Avram-API
 
