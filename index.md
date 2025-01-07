@@ -45,11 +45,6 @@ Als Begleitmaterial gibt es folgende Screencasts:
 
 - Die Online-Hilfe der [CBS MARC21 database](https://help.oclc.org/Metadata_Services/CBS_MARC_21_database) enthält unter anderem eine Beschreibung der PICA-Felder die für praktisch alle CBS-Installationengleich sind
 
-## Literatur
-
-::: {#refs}
-:::
-
 <!-- TODO
 - Eversberg: https://nbn-resolving.org/urn:nbn:de:gbv:084-11032313237
 - Tennant (2002): *MARC Must Die.* In: Library Journal.

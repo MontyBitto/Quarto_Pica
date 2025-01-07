@@ -48,7 +48,8 @@ book:
   favicon: img/gbv-vzg-logo.png
 
 bibliography: references.bib 
-
+nocite: |
+  @*
 tbl-cap-location: bottom
 number-sections: false
 number-depth: 1
