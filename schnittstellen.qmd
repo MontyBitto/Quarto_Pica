@@ -198,7 +198,7 @@ catmandu convert pp --fix gnd.fix to YAML < frankfurts.pica
 
 In der Standard-Katalogansicht eines PICA-Katalogs (OPAC) lässt sich der PICA-Datensatz eines ausgewählten Titels über einen versteckten Link direkt unter dem Icon der Publikationsform aufrufen (siehe Screenshot). Alternativ kann die lässt Feldansicht auch durch den URL-Bestandteil `/PSR=PP` (nur Titelebene) bzw. `/PRS=PP%7F` (alle Ebenen) aktiviert werden. Der Datensatz in PICA Plain Serialisierung kann anschließend per Copy & Paste beispielsweise in eine Datei kopiert werden.
 
-![Versteckter Link zum PICA-Datensatz (roter Pfeil)](img/opac-hidden-link.png)
+![Versteckter Link zum PICA-Datensatz (roter Pfeil)](img/opac-hidden-link.png){#fig-versteckter-link}
 
 
 Unter dem PICA-Datensatz wird in der Feldansicht auch die **Indexierung** des Datensatz angezeigt (siehe [Erklärungen zu SRU](#sru)).

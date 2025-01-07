@@ -52,7 +52,7 @@ nocite: |
   @*
 tbl-cap-location: bottom
 number-sections: false
-number-depth: 1
+number-depth: 2
 
 format:
   html:
@@ -63,9 +63,9 @@ format:
     callout-appearance: simple
     published-title: "Letzte Änderung"
     number-sections: true
-    number-depth: 3
+    number-depth: 2
     twitter-card: true
   docx:
     number-sections: true
-    number-depth: 3
+    number-depth: 2
 

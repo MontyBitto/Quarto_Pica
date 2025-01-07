@@ -14,7 +14,7 @@ Durch farbliche Hervorhebung von Feldern und Unterfeldern lassen sich PICA-Daten
 
 Der Texteditor vim gehört praktisch zur Standardausstattung für jedes Unix-System.
 
-  ![Screenshot PICA Syntax-Highlighting unter vim](img/screenshot-vim.png)
+  ![Screenshot PICA Syntax-Highlighting unter vim](img/screenshot-vim.png){#fig-vimsyntax}
 
 ::: {.callout-note appearance="simple"}
 [Anleitung der Einrichtung von PICA-Highlighting unter vim](https://gbv.github.io/lipstick/vim/)
@@ -24,7 +24,7 @@ Der Texteditor vim gehört praktisch zur Standardausstattung für jedes Unix-Sys
 
 Das Kommandozeilenprogramm [picadata](verarbeitung.qmd#picadata) wird im folgenden Kapitel vorgestellt.
 
-![Screenshot PICA Syntax-Highlighting mit picadata](img/screenshot-picadata.png)
+![Screenshot PICA Syntax-Highlighting mit picadata](img/screenshot-picadata.png){#fig-picadatasyntax}
 
 Standardmäßig ist Syntaxhervorhebung für PICA Plain Datensätze auf der Kommandozeile aktiviert. Mit den Optionen `-M`/`--mono` bzw. `-C`/`--color` lässt sie sich explizit ab- und anschalten.
 
@@ -32,7 +32,7 @@ Standardmäßig ist Syntaxhervorhebung für PICA Plain Datensätze auf der Komma
 
 Der Texteditor [Sublime Text](https://www.sublimetext.com/) kann um Syntax-Highlighting für PICA erweitert werden.
 
-![Screenshot PICA Syntax-Highlighting mit Sublime](img/screenshot-sublime.png)
+![Screenshot PICA Syntax-Highlighting mit Sublime](img/screenshot-sublime.png){#fig-sublimesyntax}
 
 ::: {.callout-note appearance="simple"}
 [PICA-Syntax-Definition und Anleitung](https://git.bsz-bw.de/amzar/pica-sublime)

@@ -42,3 +42,12 @@ div.csl-entry {
 {
   font-size: 1rem;
 }
+
+table tr td {
+  border-right: 1px solid grey;
+  color: black
+}
+
+table tr td:last-of-type {
+  border: none;
+}

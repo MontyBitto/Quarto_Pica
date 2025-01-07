@@ -49,7 +49,7 @@ Die Identifizierung eines Exemplardatensatzes ist also zum einen durch seine EPN
 
 Das gesamte Datenmodell von PICA+ kann folgendermaßen angegeben werden:
 
-![Datenmodell von PICA+](img/datenmodell.svg)
+![Datenmodell von PICA+](img/datenmodell.svg){#fig-picaplusmodell}
 
 ::: {.callout-note appearance="simple"}
 Weitere Informationen zu [PICA in der GBV-Formatdatenbank](https://format.gbv.de/pica)
@@ -120,7 +120,7 @@ Neben den Binärformaten **[Binäres PICA](https://format.gbv.de/pica/binary)**,
 
 PICA Plain ist den internen Binärformaten am nächsten: Datensätze und Felder werden durch Zeilenumbrüche (Bytecode `0A`) getrennt und Unterfelder mit einem Dollar-Zeichen (`$`) eingeleitet. Dollar-Zeichen in Werten lassen sich durch Doppelung (`$$`) kodieren. Das Format ist über einen "versteckten Link" direkt [aus dem OPAC verfügbar](schnittstellen.qmd#OPAC). Statt dem Dollarzeichen verwendet WinIBW zur Kennzeichnung von Unterfeldern den kleinen Buchstaben F mit Haken (ƒ). PICA/JSON hat den Vorteil dass Felder und Unterfelder bereits maschinenlesbar getrennt sind und dass praktisch alle Programmiersprachen mit JSON umgangen werden können. Die XML-Serialisierungen sind für XML-basierte Anwendungen und Schnittstellen relevant. PPXML weist die Besonderheit auf, dass Titel-, Lokal- und Exemplarebene bereits im Format getrennt sind. Nachfolgend der gleiche Beispieldatensatz in allen sieben Serialisierungen (bei den Binärformaten steht zur besseren Lesbarkeit `[XX]` für ein Byte mit dem hexadezimalen Bytecode `XX`):
 
-#### PICA Plain
+### PICA Plain
 
 ~~~pica
 003@ $012345X
@@ -151,7 +151,7 @@ _Nach dem Datensatz folgt kein Zeilenumbruch!_
 [1E]045B/02 [1F]aSpo 1025[1F]aBID 200
 ~~~
 
-#### PICA/JSON
+### PICA/JSON
 
 ~~~json
 [
@@ -161,7 +161,7 @@ _Nach dem Datensatz folgt kein Zeilenumbruch!_
 ]
 ~~~
 
-#### PICA/XML
+### PICA/XML
 
 ~~~xml
 <record xmlns="info:srw/schema/5/picaXML-v1.0">
@@ -179,7 +179,7 @@ _Nach dem Datensatz folgt kein Zeilenumbruch!_
 </record>
 ~~~
 
-#### PPXML
+### PPXML
 
 ~~~xml
 <record xmlns="http://www.oclcpica.org/xmlns/ppxml-1.0">
