@@ -1,7 +1,7 @@
 ---
 title: "Einleitung"
 ---
-
+# Einleitung
 ## Vorwort
 
 > During a relatively long period of research, an advanced format was developed for the storage of bibliographic information; the PICA format. — Look Costers -@costers_pica_1979

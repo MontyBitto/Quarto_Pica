@@ -49,9 +49,7 @@ Die Identifizierung eines Exemplardatensatzes ist also zum einen durch seine EPN
 
 Das gesamte Datenmodell von PICA+ kann folgendermaßen angegeben werden:
 
-![PICA-Datenmodell](img/datenmodell.svg)
-
-*Datenmodell von PICA+*
+![Datenmodell von PICA+](img/datenmodell.svg)
 
 ::: {.callout-note appearance="simple"}
 Weitere Informationen zu [PICA in der GBV-Formatdatenbank](https://format.gbv.de/pica)
@@ -91,9 +89,8 @@ Hier einige der Unterfelder im Vergleich:
 | `$y` | `$y` | Chronologische Unterteilung |
 | `$z` | `$z` | Geografische Unterteilung |
 
+[Avram]: formate.qmd#avram-schemas
 Bei der formalen Beschreibung von Katalogisierungsregeln mittels [Avram] können Pica3-Feldnummern und Unterfeld-Kennzeichen mit angegeben werden. Hier ein (unvollständiges) Schema mit den Feldern aus dem Beispiel:
-
-[Avram]: #avram-schemas
 
 ~~~json
 {

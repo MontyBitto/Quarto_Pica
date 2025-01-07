@@ -1,17 +1,20 @@
 project:
   type: book
+  preview:
+    port: 15745
+    browser: false
 
 metadata-files:
   - about.yml
 
-bibliography: references.bib 
-nocite: |
-  @*
-
 book:
-  repo-url: https://github.com/pro4bib/pica
+  downloads:
+    - docx
+  repo-url: https://github.com/MontyBitto/Quarto_Pica/
   repo-actions:
     - source
+    - edit
+    - issue
   chapters:
     - index.md
     - grundlagen.qmd
@@ -26,11 +29,9 @@ book:
     - ausblick.qmd
     - CONTRIBUTING.qmd
     - literatur.md
-  navbar:
+  sidebar:
+    style: docked
     logo: img/gbv-vzg-logo.png
-    logo-alt: "GBV VZG Logo."
-    title: false
-
   page-footer: 
     left: 
       - text: CC BY 3.0 DE
@@ -41,9 +42,12 @@ book:
       - text: hosted by VZG
         href: https://www.gbv.de/impressum
       - icon: github
-        href: https://github.com/pro4bib/pica/
+        href: https://github.com/MontyBitto/Quarto_Pica/
       - text: "![](img/quarto-badge.svg)"
         href: https://quarto.org
+  favicon: img/gbv-vzg-logo.png
+
+bibliography: references.bib 
 
 tbl-cap-location: bottom
 number-sections: false
@@ -52,7 +56,15 @@ number-depth: 1
 format:
   html:
     theme: cosmo
-    css: css/gbv.css
+    css: style.css
     link-external-icon: true
-    toc: true
+    email-obfuscation: javascript
+    callout-appearance: simple
+    published-title: "Letzte Änderung"
+    number-sections: true
+    number-depth: 3
+    twitter-card: true
+  docx:
+    number-sections: true
+    number-depth: 3
 

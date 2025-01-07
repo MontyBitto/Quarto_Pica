@@ -18,7 +18,7 @@ indirekt zu Änderungen an PICA-Daten führen können:
 
 Um unabhängig von einzelnen Werkzeugen Änderungen an PICA-Datensätzen auszudrücken, wurde an der VZG das [PICA-Patch-Format](formate.qmd#Änderungsformat) entwickelt.
 
-### Änderungen mit Catmandu
+## Änderungen mit Catmandu
 
 Das Werkzeug [Catmandu](catmandu) ermöglicht neben der Abfrage und Auswertung
 von PICA-Daten auch die Erstellung von PICA-Patch-Datensätzen um Änderungen

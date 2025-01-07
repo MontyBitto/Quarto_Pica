@@ -114,8 +114,6 @@ Ein grundsätzliches Problem von Daten ist, dass wir von ihnen Bedeutung erwarte
 
 ![Ebenen der Datenmodellierung](img/data-modeling-simplified.png)
 
-*Ebenen der Datenmodellierung*
-
 Ein weiteres Hilfsmittel zum Verständnis von Datenformaten sind **Beispiele**. Anhand von Beispielen können wir durch Verallgemeinerung eine Vorstellung von Datenformaten bekommen. Jeder Versuch diese angenommene Verallgemeinerung explizit zu machen ist ein Datenmodell.
 
 ## Zusammenfassung
