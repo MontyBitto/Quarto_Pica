@@ -1,17 +1,19 @@
 project:
   type: book
-  render:
-    - "!*.md"
+
+metadata-files:
+  - about.yml
+
+bibliography: references.bib 
+nocite: |
+  @*
 
 book:
-  title: "Einführung in die Verarbeitung von PICA-Daten"
-  subtitle: "Dieses Handbuch bietet eine Einführung in die Verarbeitung von Daten in, aus und zwischen **PICA-Formaten**."
   repo-url: https://github.com/pro4bib/pica
-  language: de
   repo-actions:
     - source
   chapters:
-    - index.qmd
+    - index.md
     - grundlagen.qmd
     - formate.qmd
     - darstellung.qmd
@@ -23,6 +25,7 @@ book:
     - bearbeitung.qmd
     - ausblick.qmd
     - CONTRIBUTING.qmd
+    - literatur.md
   navbar:
     logo: img/gbv-vzg-logo.png
     logo-alt: "GBV VZG Logo."
@@ -52,3 +55,4 @@ format:
     css: css/gbv.css
     link-external-icon: true
     toc: true
+
